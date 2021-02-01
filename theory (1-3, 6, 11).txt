@@ -1,0 +1,25 @@
+  1. 
+  Class is a template for objects
+  When the individual objects are created, they inherit all the variables
+  and methods from the class.
+===================================================
+  2. 
+  An instance of a class is an object - it's a concrete 'thing'
+  that you made using a specific class.
+  So, 'object' and 'instance' are the same thing,
+  but the word 'instance' indicates the relationship of an object to its class.
+===================================================
+  3. 
+  To create an instance of 'MyClass', specify the class name,
+  followed by the object name, and use the keyword new:
+  MyClass myInstance = new MyClass();
+  ===================================================
+  6. 
+  The toString() method returns the string representation of the object.
+  ===================================================
+  11.
+  The final keyword is a non-access modifier used for classes, attributes and methods, 
+  which makes them non-changeable (impossible to inherit or override).
+  
+  The static keyword is a non-access modifier used for methods and attributes. 
+  Static methods/attributes can be accessed without creating an object of a class.
